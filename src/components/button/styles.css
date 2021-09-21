@@ -1,0 +1,52 @@
+.sumAndSub{
+    display: flex;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contador{
+    background: rgb(223, 223, 223);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px -3px rgba(27, 27, 27, 0.336);
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: "FontCalculator";
+    src: url('../../fonts/digital-7.ttf');
+  }
+
+.contador span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    color: #fff;
+    width: 450px;
+    border-radius: 1px;
+    margin: 0 5px 0 5px;
+    font-family: FontCalculator;
+}
+
+.operacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.operacoes button{
+    margin: 5px 5px 0 5px;
+    font-size: 35px;
+}
+
+.btn.btn-secondary.btn-lg{
+    padding: .2rem 1rem;
+}
